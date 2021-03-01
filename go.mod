@@ -1,4 +1,4 @@
-module github.com/grafana/tempo
+module github.com/maxb/tempo
 
 go 1.15
 
