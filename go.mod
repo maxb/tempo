@@ -76,7 +76,7 @@ replace (
 
 // opentelemtry collector requires older prometheus discovery config
 // copied locally because having issues referencing a subpackage any other way
-replace github.com/prometheus/prometheus/discovery/config => github.com/maxb/tempo/vendor-fix/github.com/prometheus/prometheus/discovery/config master
+replace github.com/prometheus/prometheus/discovery/config => github.com/maxb/tempo/vendor-fix/github.com/prometheus/prometheus/discovery/config v0.0.0-20210301115606-3a54b375c444
 
 // Pin github.com/go-openapi versions to match Prometheus alertmanager to avoid
 // breaking changing affecting the alertmanager.
